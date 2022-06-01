@@ -1,0 +1,409 @@
+/* Stylování HTML a těla stránky */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 22%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0,119,182);
+  background: linear-gradient(180deg, rgba(0,119,182,1) 0%, rgba(0,150,199,1) 20%, rgba(0,180,216,1) 40%, rgba(72,202,228,1) 60%, rgba(173,232,244,1) 80%, rgba(202,240,248,1) 100%);
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Konec stylování HTML a těla stránky */
+
+/* Barevné označení textu */
+::selection {
+color: white;
+background: rgb(0,119,182);
+}
+/* Barevné označení textu */
+
+/* Stylování navigačního menu*/
+.navbar {
+  background-color: rgb(0,119,182);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Sora', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+  z-index: 999;
+  cursor: context-menu;
+}
+
+.navbar a {
+  cursor: pointer;
+  float: right;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+.item_right {float: right;}
+.item_left {float: left;}
+
+.navbar a:hover {
+  transition: 1s;
+  background-color: white;
+  color: rgb(0,119,182);
+}
+/*Konec navbaru */
+
+/* Stylování landing stránky */
+.container {
+  height: 70vh;
+  width: 70%;
+  margin: auto;
+}
+
+.landing_page a i {color: rgb(0,119,182);}
+
+.fa-1x {color: rgb(0,119,182);}
+
+.landing_page .landing_text a {
+  text-decoration: none;
+  color: rgb(0,119,182);;
+}
+
+.github_odkaz_na_repo {
+  margin-left: 2%; 
+  text-decoration: none;
+}
+
+.scrolldown_button {
+  margin-right: 2%;
+}
+
+.landing_page {
+  position: relative;
+  background: none;
+  display: flex;
+  position: relative;
+  padding-top: 12.5%;
+}
+
+.landing_page .logo {
+  text-transform: uppercase;
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 19px;
+  width: 300px;
+}
+
+.landing_page .links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.landing_page .landing_text {
+  width: 35%;
+  float: left;
+  margin-top: 10%;
+}
+
+.landing_page .landing_text h1 {
+  font-size: 44px;
+  margin: 0 0 20px;
+  line-height: 1.4;
+  color: white;
+  text-align: left;
+}
+
+.landing_page .landing_text p {
+  text-align: left;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 150%;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+.landing_page .landing_text button {
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+text-transform: uppercase;
+border: 0;
+border-radius: 25px;
+padding: 15px 35px;
+margin-top: 30px;
+cursor: pointer;
+color: rgb(0,119,182);
+background-color: white;
+}
+
+.landing_page .landing_text button:hover {
+  box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.56);
+-webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.56);
+  transition: .5s;
+}
+
+.landing_page .obrazek_na_landing_page {
+width: 50%;
+float: right;
+margin-top: 11%;
+}
+
+.landing_page .obrazek_na_landing_page img {
+float: right;
+padding-left: 2%;
+height: 70%;
+width: 70%;
+}
+/* Konec landing page*/
+
+/* Stylování kontentu na stránce */
+.sekce1 {
+  padding-bottom: 10%;
+}
+
+.sekce2 {
+  padding-top: 11%;
+  padding-bottom: 5%;
+}
+
+.content {
+  background-color: white;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  border-radius: 30px;
+  padding-top: 1%;    
+  text-align: center;
+  user-select: text;
+}
+
+.content li {
+  list-style-image: url('odrazka.svg');
+  padding-bottom: 2%;
+}
+  
+.content p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+}
+
+.info button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 25px;
+  padding: 15px 35px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(0,119,182);
+  }
+  
+.info button:hover {
+  box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.56);
+  -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.56);
+  -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.56);
+  transition: .5s;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+}
+/* Konec stylování kontentu na stránce */
+
+/* Stylování textu na stránce */
+h1 {
+  text-align: center; 
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center; 
+  font-size: 45px; 
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 5%;
+}
+h3 {
+  text-transform: uppercase;
+  border-bottom: 2px solid  rgb(0,119,182); 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+u {color: rgb(0,119,182)}
+i {color: rgb(0,119,182)}
+b {color: rgb(0,119,182)}
+
+.text {
+  text-align: justify;
+  float: left;
+  display: block;
+  width: 40%;
+  padding-left: 5%;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+  padding-right: 1%; 
+  }
+
+.info {
+  padding-bottom: 4%;
+}
+/*Konec stylování textu na stránce */
+
+/* Stylování obrázků */
+.html_ikonka {
+  padding-top: 4%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.tagy_pro_upravu {
+  padding-top: 2%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.css_ikonka {
+  padding-top: 4%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.css_styling {
+  padding-top: 6%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.html_obrazky {
+  padding-top: 2%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.bloky_textu {
+  padding-top: 8%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.css_intern {
+  padding-top: 1.5%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.css_selektory {
+  padding-top: 2%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.css_selektory2 {
+  padding-top: 5%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.class_selectors {
+  padding-top: 7%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.id_selectors {
+  padding-top: 3.5%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.kontext_selectors {
+  padding-top: 6%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.group_selectors {
+  padding-top: 5%;
+  filter: drop-shadow(0px 0px 10px #000);
+  z-index: 5;
+}
+.ides {
+padding-top: 1%;
+filter: drop-shadow(0px 0px 10px #000);
+z-index: 5;
+}
+/* Konec stylování obrázků */
+
+/* Stylování patičky stránky */
+footer {
+  position: relative;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(0,119,182);
+  color: #fff;
+  padding: 20px 0;
+  font-family: 'Sora', sans-serif;
+}
+
+footer ul {
+  display: flex; 
+  padding-right: 2%;
+}
+
+footer ul li {
+  list-style: none;
+  padding-left: 10%;
+}
+
+footer p {
+  padding-left: 1.5%;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+}
+  
+footer a {
+  color: white;
+  text-decoration: none;
+}
+  
+.fa-brands {
+  color:#D1E3DD;
+}
+.fa-solid {
+color:#D1E3DD;
+}
+.fa-envelope {
+  color:#D1E3DD;
+}
+
+footer .fa-brands:hover {
+  color:#D1E3DD;
+  transition: 1.5s;
+  transform: rotateZ(360deg);
+}
+.fa-solid:hover {
+color:#D1E3DD;
+transition: 1.5s;
+transform: rotateZ(360deg);
+}
+.fa-envelope:hover {
+  color:#D1E3DD;
+  transition: 1.5s;
+  transform: rotateZ(360deg);
+}
+/* Konec stylování patičky stránky */
+
+/* Začátek stylování scrollbaru */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: rgb(0,119,182);
+}
+/* Konec stylování scrollbaru*/

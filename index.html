@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e4a32ffcec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>HTML & CSS Tutorial</title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="item_left">
+        <a href="#landing">HTML & CSS TUTORIAL</a>
+    </div> 
+    <div class="item_right">
+        <a href="#kontakt">Kontakt</a>
+    </div> 
+    <div class="item_right">
+        <a href="#cojetocss">CSS</a>
+    </div> 
+    <div class="item_right">
+        <a href="#cojetohtml">HTML</a>
+    </div>  
+  </div>
+
+  <div class="landing_page" id="landing">
+    <div class="container">
+      <div class="landing_text">
+        <h1>HTML & CSS Tutorial</h1>
+        <p>Zde naleznete kompletní návod k tvorbě webových stránek pomocí HTML & CSS</p>
+        <button class="scrolldown_button"><a href="#cojetoide">Pokračovat</a></button>
+        <button class="github_odkaz_na_repo"><a href="https://github.com/azaludek/tutorial.github.io.git" target="_blank"><i class="fa-brands fa-github fa-1x"></i></a></button>
+      </div>
+        <div class="obrazek_na_landing_page">
+          <img src="html_css_logo.png">
+        </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="info">
+      <h2 class="druhy_nadpis" id="cojetoide">V čem programovat a co je to IDE?</h2>
+      <p>IDE je vývojové prostředí, které usnadňuje práci programátorům</p>
+      <p>Obsahuje editor zdrojového kódu, kompilátor, případně interpret a většinou také debugger</p>
+    </div>
+
+    <div class="text">
+      <h3>Jednotlivé IDE</h3>
+      <li>Visual Studio Code - editor zdrojového kódu vyvíjený společností Microsoft pro operační systémy Windows, Linux a macOS. Je jedním z nejpoužívanějších IDE</li>
+      <li>Atom - vyvíjen společností GitHub, má zabudovanou podporu pro Git a podporu zásuvných modulů naprogramovaných v JavaScriptu</li>
+      <li>Sublime Text 3 - multiplatformní editor textových souborů a zdrojového kódu, samotný editor není zdarma, ovšem pluginy ano</li>
+    </div>
+    <div class="ides"><img src="ides.png" alt="" width="50%" height="50%"></div>
+      
+    <div class = "info">
+      <h2 class = "druhy_nadpis" id = "cojetohtml">HTML</h2>
+      <p>Tato sekce obsahuje popis značkovacího jazyka HTML</p>
+      <p>Vyberte z menu, co se chcete naučit, anebo pokračujte od začátku</p>
+      <button class="scrolldown_button"><a href="#uvodDoHtml">Úvod do HTML</a></button>
+      <button class="scrolldown_button"><a href="#zacatekHtml">Začátek HTML souboru</a></button>
+      <button class="scrolldown_button"><a href="#blokyTextu">Bloky textu</a></button>
+      <br>
+      <button class="scrolldown_button"><a href="#tagyProUpravuTextu">Tagy pro úpravu textu</a></button>
+      <button class="scrolldown_button"><a href="#htmlSeznamy">HTML seznamy</a></button>
+      <button class="scrolldown_button"><a href="#htmlObrazky">HTML obrázky</a></button>
+      <br>
+      <button class="scrolldown_button"><a href="#externiCss">Externí CSS</a></button>
+      <button class="scrolldown_button"><a href="#interniCss">Interní CSS</a></button>
+      <button class="scrolldown_button"><a href="#vlozeneCss">Vložené CSS</a></button>
+    </div>
+
+    <div class="sekce2">
+      <div class="text">
+        <h3 id="uvodDoHtml">Úvod do HTML</h3>
+        <li>HTML se skláda ze značek (tagů)</li>
+        <li>Umožňuje dodávat prvkům na stránce určitý význam</li>
+        <li>Tagy slouží k tomu, abychom jimi mohli obalovat text a tak mu dávat určitý význam</li>
+        <li>Je značkovací jazyk, který se používá k vytváření základní obsahové kostry webových stránek</li>
+        <li>Umožňuje publikaci dokumentů na Internetu</li>
+        <li>Vznikl v roce 1990</li>
+      </div>
+      <div class="html_ikonka"><img src="html_icon.png" alt="Nadpisy HTML" width="20%"></div>
+    </div>
+    
+    <div class = "info">
+      <h2 class = "druhy_nadpis" id = "zakladniTagy">Základní HTML tagy</h2>
+      <p>Jako HTML tagy označují frontendisté a kodéři značky v kódu jazyka HTML či XHTML, které vytváří tzv. HTML elementy</p>
+      <p>Tagy mohou být párové i nepárové</p>
+      <p>Párové tagy musí končite stejným tagem, jakým začali, ale musíme přidat lomítko</p>
+      <p>Zapisují se do hranatých závorek</p>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="zacatekHtml">Začátek HTML souboru</h3>
+        <li>HTML soubor má určitou strukturu</li>
+        <li>Na začátku musíme určit doctype</li>
+        <li>Dále definujeme samotný HTML dokument, ten je rozdělen na dvě části - hlavičku a tělo</li>
+        <li>Hlavička obsahuje informace pro prohlížeče a vyhledávače, tělo poté obsahuje samotný obsah stránky</li>
+      </div>
+      <div class="html_ikonka"><img src="zacatek_html.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="tagyProUpravuTextu">Tagy pro úpravu textu</h3>
+        <li>&ltb&gt: <b>tučné písmo</b>, tag je párový</li>
+        <li>&lti&gt: <i>text psaný kurzívou</i>, je párový</li>
+        <li>&ltu&gt: <u>podtržení textu</u>, je párový</li>
+        <li>&ltfont&gt: styl písma, také je párový</li>
+        <li>&ltspan&gt: úsek textu, je párový</li>
+        <li>&ltstrong&gt: tučné zvýraznění</li>
+      </div>
+      <div class="tagy_pro_upravu"><img src="uprava.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="blokyTextu">Bloky textu</h3>
+        <li>&ltheader&gt: záhlaví stránky</li>
+        <li>&ltfooter&gt: patička stránky</li>
+        <li>&ltmain&gt: hlavní obsah stránky</li>
+        <li>&ltsection&gt: obsahová sekce např u článku</li>
+        <li>&ltnav&gt: navigační lišta stránky</li>
+        <li>&ltp&gt: odstavec, je párový</li>
+        <li>&ltbr&gt: řádkový zlom, je nepárový</li>
+        <li>&ltdiv&gt: oddíl, kontejner, je párový</li>
+        <li>&lth1&gt - &lth6&gt: nadpisy různých úrovní, h1 je nevětší, h6 nejmenší, tagy jsou párové</li>
+        <li>&lthr&gt: vodorovná čára, je nepárový</li>
+      </div>
+      <div class="bloky_textu"><img src="head.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="htmlSeznamy">HTML Seznamy</h3>
+        <li>&ltli&gt: položka seznamu</li>
+        <li>&ltol&gt: čislový seznam</li>
+        <li>&ltul&gt: odrážkový seznam</li>
+        <li>&ltdir&gt: zvláštní druh seznamu</li>
+        <li>&ltmenu&gt: typ seznamu</li>
+        <li>&ltdl&gt: seznam definic</li>
+        <li>&ltdt&gt: definovaný termín</li>
+        <li>&ltdd&gt: definice termínu</li>
+      </div>
+      <div class="html_ikonka"><img src="list.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="htmlObrazky">HTML obrázky</h3>
+        <li>HTML obrázky se definují pomocí &ltimg&gt tagu</li>
+        <li>Tento tag obsahuje zdrojový soubor, náhradní text a výšku a šířku obrázku</li>
+        <li><i>&ltimg src="obrazek.png" alt="logo"&gt</i></li>
+      </div>
+      <div class="html_obrazky"><img src="obrazky_syntax.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class = "info">
+      <h2 class = "druhy_nadpis">Jak připojit CSS</h2>
+      <p>Existuje mnoho způsobů, jak CSS připojit a zde si je ukážeme</p>
+    </div>
+    <div class="sekce1">
+      <div class="text">
+        <h3 id = "externiCss">Pomocí externího souboru</h3>
+        <li>Nejprve se vytvoří obyčejný textový soubor, např: default.css</li>
+        <li>Tento externí soubor se připojí k dokumentu následujícím způsobem: <i>&ltlink rel="stylesheet" type="text/css" href="default.css"/&gt</i></li>
+        <li>Tento způsob podporují všechny prohlížeče s podporou kaskádových stylů</li>
+        <li>Je možné soubor CSS připojit i pomocí importu, to se ale moc nevyužívá</li>
+      </div>
+      <div class="css_ikonka"><img src="css_icon.png" alt="Nadpisy HTML" width="20%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="interniCss">Pomocí interního souboru</h3>
+        <li>Pokud má jedna stránka HTML jedinečný styl, lze použít interní šablonu stylů</li>
+        <li>Vnitřní styl je definován uvnitř prvku <i>&ltstyle&gt</i>, uvnitř v sekci <i>&lthead&gt</i></li>
+      </div>
+      <div class="css_intern"><img src="styling.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="vlozeneCss">Vložené CSS</h3>
+        <li>Vložený styl lze použít k použití jedinečného stylu pro jeden prvek</li>
+        <li>Chceme-li použít vložené styly, přidáváme atribut stylu k příslušnému prvku. Atribut style může obsahovat libovolnou vlastnost CSS</li>
+      </div>
+      <div class="css_intern"><img src="styling.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+      <div class = "info">
+        <h2 class = "druhy_nadpis" id = "cojetocss">CSS</h2>
+        <p>Tato sekce obsahuje popis stylovacího jazyka CSS</p>
+        <p>Vyberte z menu, co se chcete naučit, anebo pokračujte od začátku</p>
+        <button class="scrolldown_button"><a href="#uvodDoCss">Úvod do CSS</a></button>
+        <button class="scrolldown_button"><a href="#stylovaniCss">Stylování v CSS</a></button>
+        <button class="scrolldown_button"><a href="#cssKomentare">CSS komentáře</a></button>
+        <br>
+        <button class="scrolldown_button"><a href="#coToJsouSelektory">Co to jsou selektory</a></button>
+        <button class="scrolldown_button"><a href="#typoveSelektory">Typové selektory</a></button>
+        <button class="scrolldown_button"><a href="#tridniSelektory">Třídní selektory</a></button>
+        <br>
+        <button class="scrolldown_button"><a href="#idSelektory">ID selektory</a></button>
+        <button class="scrolldown_button"><a href="#kontextoveSelektory">Kontextové selektory</a></button>
+        <button class="scrolldown_button"><a href="#skupinoveSelektory">Skupinové selektory</a></button>
+      </div>
+      <div class="sekce2">
+        <div class="text">
+          <h3 id="uvodDoCss">Úvod do CSS</h3>
+          <li>CSS je anglická zkrátka názvu Cascading Style Sheets, což v překladu znamená tabulky kaskádových stylů</li>
+          <li>Jde o formátovací jazyk, který popisuje způsob zobrazení stránek napsaných v XML, XHTML či v HTML.</li>
+          <li>Úkolem CSS je oddělit vzhled dokumentu od samotné struktury a obsahu</li>
+          <li>Tento formátovací jazyk vznikl kolem roku 1996</li>
+        </div>
+        <div class="css_ikonka"><img src="css_icon.png" alt="Nadpisy HTML" width="20%"></div>
+      </div>
+
+      <div class="sekce1">
+        <div class="text">
+          <h3 id="stylovaniCss">Stylování v CSS</h3>
+          <li>Změna barvy textu: <i>p {color: blue}</i>, tento text bude mít modrou barvu</li>
+          <li>Změna barvy pozadí: body <i>{background-color: yellow}</i>, pozadí bude mít žlutou barvu</li>
+          <li>Zarovnávat text a obrázky na střed: <i>p {text-align: center}</i>, tento text bude zarovnaný na střed</li>
+          <li>Měnit velikost textu, nadpisů a obrázků: <i>p {font-size: 30px}</i>, tento text bude mít velikost 30 pixelů</li>
+        </div>
+        <div class="css_styling"><img src="styling.png" alt="Nadpisy HTML" width="45%"></div>
+      </div>
+
+      <div class="sekce1">
+        <div class="text">
+          <h3 id="cssKomentare">CSS komentáře</h3>
+          <li>Prohlížeče komentáře ignorují</li>
+          <li>Komentáře se používají k vysvětlení kódu a mohou pomoci při pozdějších úpravách zdrojového kódu</li>
+          <li>Komentář CSS je umístěn uvnitř CSS souboru a značí se následovně: <i>/*Tohle je komentář v CSS*/</i></li>
+          <li>Tento komentář můžeme použít i na okomentování více řádků</li>
+        </div>
+        <div class="html_ikonka"><img src="komenty.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class = "info">
+      <h2 class = "druhy_nadpis" id = "cojetohtml">CSS selektory</h2>
+      <p>Tato sekce obsahuje všechny druhy selektorů v CSS</p>
+    </div>
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="coToJsouSelektory">Co to jsou selektory</h3>
+        <li>CSS je založeno na tzv. selektorech</li>
+        <li>Selektory umožňují označit prvky na stránce podle určitých kritérií a potom tyto prvky ostylovat</li>
+        <li>CSS dokument nemá na rozdíl od HTML žádnou hlavičku a kromě selektorů do něj již není potřeba psát cokoli navíc</li>
+      </div>
+      <div class="css_selektory"><img src="selectors.png" alt="Nadpisy HTML" width="35%"></div>
+    </div>
+    
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="typoveSelektory">Typové selektory</h3>
+        <li>Úplně nejjednodušší je tzv. typový selektor, který na stránce jednoduše vybere všechny elementy daného typu</li>
+        <li>Budeme-li chtít např.: označit všechny nadpisy h1 na stránce, kód bude vypadat následovně: <i>h1{}</i></li>
+        <li>Stylujeme tedy elementy určitého typu, zde h1</li>
+        <li>Za selektorem následuje blok ze složených závorek, do kterého se píší vlastnosti, podle kterých se mají elementy stylovat.</li>
+      </div>
+      <div class="css_selektory2"><img src="type.png" alt="Nadpisy HTML" width="35%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="tridniSelektory">Třídní selektory</h3>
+        <li>Třídní selektor funguje tak, že některé elementy na stránce zařadíme pomocí atributu class do nějaké třídy</li>
+        <li>Elementy s tímto atributem se potom ostylují podle toho, jaké vlastnosti daná třída v CSS má</li>
+        <li>Funguje to tak, že napíšu např.: <i>&ltp class="nazevTridy"&gt</i>, a poté v CSS mohu stylovat tento text</li>
+        <li>Za selektorem následuje blok ze složených závorek, do kterého se píší vlastnosti, podle kterých se mají elementy stylovat.</li>
+      </div>
+      <div class="class_selectors"><img src="class.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="idSelektory">ID selektory</h3>
+        <li>Selektor id používá atribut id prvku HTML k výběru konkrétního prvku</li>
+        <li>ID prvku je na stránce jedinečné, takže selektor ID se používá k výběru jednoho jedinečného prvku</li>
+        <li>Chcete-li vybrat prvek s konkrétním ID, napište znak hashtag (#) následovaný ID prvku</li>
+        <li>Pomocí odkazů <i>&lta href=""&gt&lt/a&gt</i> je možné linkovat různé části stránky</li>
+      </div>
+      <div class="id_selectors"><img src="id_sel.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="kontextoveSelektory">Kontextové selektory</h3>
+        <li>Kontextový selektor je definován jako selektor, který zohledňuje kontext, ve kterém má být styl aplikován</li>
+        <li>Jednoduše řečeno, určený styl se použije na prvek pouze v případě, že je prvek v určeném kontextu</li>
+        <li>Kontext lze definovat jako vztah rodič/dítě nebo vztah předek/potomek mezi různými částmi dokumentu</li>
+        <li>Kontextový volič se skládá ze dvou nebo více jednoduchých voličů oddělených mezerou</li>
+        <li>Třída, jakýkoli typ, selektor ID je považován za jednoduchý selektor</li>
+      </div>
+      <div class="kontext_selectors"><img src="kontext.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+
+    <div class="sekce1">
+      <div class="text">
+        <h3 id="skupinoveSelektory">Skupinové selektory</h3>
+        <li>Selektor seskupení v CSS se používá k výběru více prvků a jejich společnému stylu</li>
+        <li>To snižuje kód a další úsilí deklarovat společné styly pro každý prvek</li>
+        <li>Chcete-li seskupit selektory, každý selektor je oddělen mezerou</li>
+        <li>Kontextový volič se skládá ze dvou nebo více jednoduchých voličů oddělených mezerou</li>
+        <li>Třída, jakýkoli typ, selektor ID je považován za jednoduchý selektor</li>
+      </div>
+      <div class="group_selectors"><img src="group.png" alt="Nadpisy HTML" width="45%"></div>
+    </div>
+  </div>
+
+<footer id="kontakt">
+  <p><i class="fa-solid fa-code"></i> Adam Žalůdek</p>
+  <p>HTML & CSS Tutorial</p>
+  <ul>
+    <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+    <li><a href="https://twitter.com/?lang=cs" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+    <li><a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord fa-2x"></i></a></li>
+    <li><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a></li>
+  </ul>
+</footer>
+
+</body>
+</html>
